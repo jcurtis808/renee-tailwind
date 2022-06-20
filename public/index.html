@@ -6,41 +6,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+    </style>
   <title>Document</title>
 </head>
 <body class="h-full">
 
   <section class="bg-slate-100 h-full">
-    <div class="w-full h-full bg-landing bg-cover bg-center -z-1 flex flex-col justify-between">
-      <header class="p-2 z-1 basis-2/4 flex-1">
-        
-        <nav class="flex justify-between p-2 w-full">
-          
-          <ul class="flex w-full justity-between text-slate-200 md:w-2/5">
-            <li class="flex justify-center w-full transition-transform hover:scale-125"><a href="index.html">Home</a></li>
-            <li class="flex justify-center w-full transition-transform hover:scale-125"><a href="/bio.html">Bio</a></li>
-            <li class="flex justify-center w-full transition-transform hover:scale-125"><a href="media.html">Media</a></li>
-            <li class="flex justify-center w-full transition-transform hover:scale-125"><a href="niu.html">NIU</a></li>
-            <li class="flex justify-center w-full transition-transform hover:scale-125"><a href="contact.html">Contact</a></li>
-          </ul>
-            
-          <ul class="hidden w-full justify-between md:flex md:w-1/5 text-slate-200">
-            <li><a href="#" class="fa-brands fa-twitter"></a></li>
-            <li><a href="#" class="fa-brands fa-facebook-f"></a></li>
-            <li><a href="#" class="fa-brands fa-instagram"></a></li>
-            <li><a href="#" class="fa-brands fa-linkedin-in"></a></li>
-            <li><a href="#" class="fa fa-envelope"></a></li>
-          </ul>
-          
-        </nav>
-        
-      </header>
+    <img src="images/landing-mobile.jpg" alt="" class="absolute h-full w-full object-cover md:object-[center_20%] lg:object-[center_10% z-0 lg:hidden">
+    <img src="images/headshot_crop.jpg" alt="" class="hidden absolute h-full w-full object-cover lg:block">
+    <div class="w-full h-full bg-landin bg-cover bg-center md: z-10 flex flex-col justify-between">
+      <div class="z-10">
+        <header class="p-4 lg:p-6 flex-1">
+          <nav class="flex justify-between w-full"> 
+            <ul class="flex w-full justity-between text-amber-50 md:w-2/5 lg:text-xl">
+              <li class="flex justify-center w-full transition-transform hover:scale-125 hover:drop-shadow-md"><a href="index.html">Home</a></li>
+              <li class="flex justify-center w-full transition-transform hover:scale-125"><a href="/bio.html">Bio</a></li>
+              <li class="flex justify-center w-full transition-transform hover:scale-125"><a href="media.html">Media</a></li>
+              <li class="flex justify-center w-full transition-transform hover:scale-125"><a href="niu.html">NIU</a></li>
+              <li class="flex justify-center w-full transition-transform hover:scale-125"><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul class="hidden w-full justify-between md:flex md:w-1/5 text-amber-50 lg:text-lg">
+              <li><a href="#" class="fa-brands fa-twitter"></a></li>
+              <li><a href="#" class="fa-brands fa-facebook-f"></a></li>
+              <li><a href="#" class="fa-brands fa-instagram"></a></li>
+              <li><a href="#" class="fa-brands fa-linkedin-in"></a></li>
+              <li><a href="#" class="fa fa-envelope"></a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="py-10 pl-5 text-4xl text-amber-50 leading-normal sm:text-5xl sm:pl-10 sm:leading-normal lg:text-7xl lg:py-40 2xl:pl-14 2xl:text-8xl">
+          <h1 class="font-['Rubik'] font-light tracking-wide">Renée<br class="md:hidden"> Vogen</h1>
+        </div>
+      </div>
       
       <!-- <img src="images/headshot_crop.jpg" alt="Alternate text" class="absolute max-h- w-full object-cover"/> -->
       
-      <footer class="basis-2/4 flex-1 mb-auto">
+      <footer class="flex-1 flex flex-col justify-end z-10">
         <div class="p-2 md:hidden">
-          <ul class="flex w-full justify-between px-5 py-2 text-slate-600">
+          <ul class="flex w-full justify-between px-5 py-2 text-amber-50">
             <li><a href="#" class="fa-brands fa-twitter"></a></li>
             <li><a href="#" class="fa-brands fa-facebook-f"></a></li>
             <li><a href="#" class="fa-brands fa-instagram"></a></li>
@@ -48,7 +53,7 @@
             <li><a href="#" class="fa fa-envelope"></a></li>
           </ul>
         </div>
-        <p class="text-center p-2 text-slate-600 sm:my-4">&copy;<a href="https://jcurtisdev.com"> Jcurtis-dev</a>.</p>
+        <p class="text-center p-2 text-amber-50 sm:my-4 md:text-right md:m-0 text-xs text-slate-200">&copy;<a href="https://jcurtisdev.com"> Jcurtis-dev</a>.</p>
       </footer>
     </div>
   </section>
