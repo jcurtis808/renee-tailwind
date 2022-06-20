@@ -686,6 +686,21 @@ video {
      object-position: center 10%;
 }
 
+.object-\[center_15\%\] {
+  -o-object-position: center 15%;
+     object-position: center 15%;
+}
+
+.object-\[center_18\%\] {
+  -o-object-position: center 18%;
+     object-position: center 18%;
+}
+
+.object-\[center_20\%\] {
+  -o-object-position: center 20%;
+     object-position: center 20%;
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -713,21 +728,8 @@ video {
   padding-bottom: 2.5rem;
 }
 
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
 .pb-5 {
   padding-bottom: 1.25rem;
-}
-
-.pl-5 {
-  padding-left: 1.25rem;
-}
-
-.pl-10 {
-  padding-left: 2.5rem;
 }
 
 .pl-6 {
@@ -855,14 +857,6 @@ video {
 
   .sm\:pl-10 {
     padding-left: 2.5rem;
-  }
-
-  .sm\:pl-24 {
-    padding-left: 6rem;
-  }
-
-  .sm\:pl-14 {
-    padding-left: 3.5rem;
   }
 
   .sm\:text-2xl {
