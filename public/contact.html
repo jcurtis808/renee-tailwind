@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
   <title>Renée Vogen</title>
 </head>
-<body class="h-full">
+<body class="h-full bg-slate-100">
 
   <header class="bg-slate-500 shadow-slate-300 shadow-xl mb-1">
       
@@ -35,29 +35,29 @@
   </header>
 
 
-  <section class="flex flex-col p-4 w-full items-center bg-slate-100">
-    <div class="my-5 rounded-md w-9/12 self-cente bg-slate-100">
+  <section class="p-4 w-full max-w-5xl text-slate-800 md:flex max-w-6xl mx-auto md:gap-10 xl:gap-20 md:p-10">
+    <div class="my-5 rounded-md w-11/12 md:basis-5/12 self-center md:self-start shadow-lg shadow-slate-400 mx-auto md:m-0">
       <img src="images/contact.jpg" alt="" class="rounded-md">
     </div>
   
-    <section class="p-2 bg-slate-300 rounded-md my-5">
+    <section class="p-2 bg-slate-300 rounded-md my-5 mx-auto w-11/12 shadow-lg shadow-slate-400 md:p-8 md:basis-7/12 md:m-0">
       <h2 class="my-4 p-2 text-center text-xl">Get in Touch!</h2>
       <form action="#" method="post" name="rvogen.com" class="p-1" netlify>
         <div class="flex flex-col justify-between">
-          <div class="flex justify-between p-2 w-full">
-            <label for="name" class="mr-3">Name</label>
-            <input type="text" name="name" class="rounded-md flex-1" >
+          <div class="flex justify-between p-2 w-full gap-2">
+            <label for="name" class="self-center">Name</label>
+            <input type="text" name="name" class="rounded-md p-2 w-9/12" >
           </div>
-          <div class="flex justify-between p-2 w-full">
-            <label for="email" class="mr-3">Email</label>
-            <input type="email" name="email" class="rounded-md flex-1">
+          <div class="flex justify-between p-2 w-full gap-2">
+            <label for="email" class="self-center">Email</label>
+            <input type="email" name="email" class="rounded-md p-2 w-9/12">
           </div>
-          <div class="flex justify-between flex-col p-2 w-full">
+          <div class="flex justify-between flex-col p-2 w-full xl:mt-10">
             <label for="message" class="py-2">Message</label>
-            <textarea name="message" rows="6" class="rounded-md"></textarea>
+            <textarea name="message" rows="6" class="rounded-md p-2"></textarea>
           </div>
           <ul class="p-2">
-            <li><button class="rounded-lg border-2 border-slate-400 p-2">Send Message</button></li>
+            <li><button class="rounded-lg p-2 bg-slate-50">Send Message</button></li>
           </ul>
         </div>
       </form>
