@@ -575,9 +575,9 @@ video {
   margin-right: auto;
 }
 
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .my-3 {
@@ -595,13 +595,8 @@ video {
   margin-bottom: 1rem;
 }
 
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .mt-8 {
@@ -622,10 +617,6 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
 }
 
 .flex {
