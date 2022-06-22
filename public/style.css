@@ -600,6 +600,11 @@ video {
   margin-bottom: 1rem;
 }
 
+.my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .mt-8 {
   margin-top: 2rem;
 }
@@ -780,16 +785,16 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.pt-0 {
+  padding-top: 0px;
+}
+
 .pb-5 {
   padding-bottom: 1.25rem;
 }
 
 .pl-6 {
   padding-left: 1.5rem;
-}
-
-.pt-0 {
-  padding-top: 0px;
 }
 
 .text-center {
