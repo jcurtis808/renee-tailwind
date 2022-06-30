@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.tb_sp_image {
+  @apply rounded-md;
+}
+
+.tb_sb_post_wrapper {
+  @apply shadow-xl;
+  @apply shadow-slate-300;
+}
