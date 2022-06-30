@@ -814,6 +814,24 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-slate-100 {
+  --tw-gradient-from: #f1f5f9;
+  --tw-gradient-to: rgb(241 245 249 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-stone-100 {
+  --tw-gradient-from: #f5f5f4;
+  --tw-gradient-to: rgb(245 245 244 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-zinc-100 {
+  --tw-gradient-from: #f4f4f5;
+  --tw-gradient-to: rgb(244 244 245 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .via-slate-500 {
   --tw-gradient-to: rgb(100 116 139 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), #64748b, var(--tw-gradient-to);
@@ -829,6 +847,26 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), #e2e8f0, var(--tw-gradient-to);
 }
 
+.via-slate-100 {
+  --tw-gradient-to: rgb(241 245 249 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), #f1f5f9, var(--tw-gradient-to);
+}
+
+.via-stone-50 {
+  --tw-gradient-to: rgb(250 250 249 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), #fafaf9, var(--tw-gradient-to);
+}
+
+.via-zinc-50 {
+  --tw-gradient-to: rgb(250 250 250 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), #fafafa, var(--tw-gradient-to);
+}
+
+.via-slate-50 {
+  --tw-gradient-to: rgb(248 250 252 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), #f8fafc, var(--tw-gradient-to);
+}
+
 .to-slate-600 {
   --tw-gradient-to: #475569;
 }
@@ -839,6 +877,18 @@ video {
 
 .to-slate-50 {
   --tw-gradient-to: #f8fafc;
+}
+
+.to-slate-100 {
+  --tw-gradient-to: #f1f5f9;
+}
+
+.to-stone-100 {
+  --tw-gradient-to: #f5f5f4;
+}
+
+.to-zinc-100 {
+  --tw-gradient-to: #f4f4f5;
 }
 
 .bg-cover {
@@ -1013,6 +1063,11 @@ video {
   color: rgb(51 65 85 / var(--tw-text-opacity));
 }
 
+.text-red-800 {
+  --tw-text-opacity: 1;
+  color: rgb(153 27 27 / var(--tw-text-opacity));
+}
+
 .text-slate-600 {
   --tw-text-opacity: 1;
   color: rgb(71 85 105 / var(--tw-text-opacity));
@@ -1026,16 +1081,6 @@ video {
 .text-amber-50 {
   --tw-text-opacity: 1;
   color: rgb(255 251 235 / var(--tw-text-opacity));
-}
-
-.text-red-700 {
-  --tw-text-opacity: 1;
-  color: rgb(185 28 28 / var(--tw-text-opacity));
-}
-
-.text-red-800 {
-  --tw-text-opacity: 1;
-  color: rgb(153 27 27 / var(--tw-text-opacity));
 }
 
 .shadow-xl {
