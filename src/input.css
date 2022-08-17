@@ -6,6 +6,11 @@
   @apply rounded-md;
 }
 
+.tb_see_more_btn {
+  color: rgb(203, 213, 225) !important;
+}
+  
+
 .tb_sb_post_wrapper {
   @apply shadow-xl;
   @apply shadow-slate-300;
