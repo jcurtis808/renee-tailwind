@@ -1935,6 +1935,11 @@ video {
     line-height: 1;
   }
 
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .lg\:font-light {
     font-weight: 300;
   }
@@ -1964,16 +1969,8 @@ video {
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:pl-14 {
-    padding-left: 3.5rem;
-  }
-
   .\32xl\:pl-16 {
     padding-left: 4rem;
-  }
-
-  .\32xl\:pl-20 {
-    padding-left: 5rem;
   }
 }
 
