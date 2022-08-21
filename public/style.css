@@ -1419,9 +1419,9 @@ video {
   line-height: 1.75rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-6xl {
@@ -1432,11 +1432,6 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .font-medium {
@@ -1552,12 +1547,12 @@ video {
   transition-duration: 150ms;
 }
 
-.duration-300 {
-  transition-duration: 300ms;
-}
-
 .duration-200 {
   transition-duration: 200ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
 }
 
 .ease-in-out {
@@ -1805,6 +1800,11 @@ video {
     line-height: 2rem;
   }
 
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1818,11 +1818,6 @@ video {
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
   }
 
   .md\:text-slate-500 {
@@ -1910,13 +1905,18 @@ video {
     padding-top: 0px;
   }
 
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
   }
 
-  .lg\:text-7xl {
-    font-size: 4.5rem;
+  .lg\:text-8xl {
+    font-size: 6rem;
     line-height: 1;
   }
 
@@ -1930,27 +1930,8 @@ video {
     line-height: 1;
   }
 
-  .lg\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .lg\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
-  }
-
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
   .lg\:font-light {
     font-weight: 300;
-  }
-
-  .lg\:font-normal {
-    font-weight: 400;
   }
 
   .lg\:leading-relaxed {
@@ -1980,16 +1961,6 @@ video {
 @media (min-width: 1536px) {
   .\32xl\:pl-14 {
     padding-left: 3.5rem;
-  }
-
-  .\32xl\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
-  }
-
-  .\32xl\:text-9xl {
-    font-size: 8rem;
-    line-height: 1;
   }
 }
 
