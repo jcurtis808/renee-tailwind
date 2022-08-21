@@ -1967,6 +1967,14 @@ video {
   .\32xl\:pl-14 {
     padding-left: 3.5rem;
   }
+
+  .\32xl\:pl-16 {
+    padding-left: 4rem;
+  }
+
+  .\32xl\:pl-20 {
+    padding-left: 5rem;
+  }
 }
 
 @media (orientation: portrait) {
