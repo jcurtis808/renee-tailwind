@@ -1386,10 +1386,6 @@ video {
   text-align: center;
 }
 
-.text-right {
-  text-align: right;
-}
-
 .indent-4 {
   text-indent: 1rem;
 }
@@ -1643,14 +1639,6 @@ video {
 
   .sm\:pl-10 {
     padding-left: 2.5rem;
-  }
-
-  .sm\:text-left {
-    text-align: left;
-  }
-
-  .sm\:indent-4 {
-    text-indent: 1rem;
   }
 
   .sm\:text-3xl {
