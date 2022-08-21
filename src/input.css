@@ -6,6 +6,10 @@
   @apply rounded-md;
 }
 
+.eapps-instagram-feed-posts-item-image-wrapper {
+  @apply rounded-md;
+}
+
 .tb_see_more_btn {
   color: rgb(203, 213, 225) !important;
 }
