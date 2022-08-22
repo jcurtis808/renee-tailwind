@@ -1180,9 +1180,9 @@ video {
   }
 }
 
-.animate-fade-in {
-  -webkit-animation: fadeIn 1s ease-in-out;
-          animation: fadeIn 1s ease-in-out;
+.animate-fade-in-quick {
+  -webkit-animation: fadeIn .5s ease-in-out;
+          animation: fadeIn .5s ease-in-out;
 }
 
 @keyframes fadeIn {
@@ -1195,9 +1195,9 @@ video {
   }
 }
 
-.animate-fade-in-quick {
-  -webkit-animation: fadeIn .5s ease-in-out;
-          animation: fadeIn .5s ease-in-out;
+.animate-fade-in {
+  -webkit-animation: fadeIn 1s ease-in-out;
+          animation: fadeIn 1s ease-in-out;
 }
 
 .list-disc {
