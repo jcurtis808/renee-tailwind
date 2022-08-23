@@ -1511,6 +1511,14 @@ video {
   line-height: 1.5;
 }
 
+.leading-none {
+  line-height: 1;
+}
+
+.leading-tight {
+  line-height: 1.25;
+}
+
 .tracking-wide {
   letter-spacing: 0.025em;
 }
@@ -1678,6 +1686,10 @@ video {
     margin-bottom: 1rem;
   }
 
+  .sm\:hidden {
+    display: none;
+  }
+
   .sm\:w-10\/12 {
     width: 83.333333%;
   }
@@ -1698,6 +1710,11 @@ video {
     padding: 3rem;
   }
 
+  .sm\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
   .sm\:pl-10 {
     padding-left: 2.5rem;
   }
@@ -1706,9 +1723,9 @@ video {
     padding-right: 2rem;
   }
 
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .sm\:text-xl {
@@ -1721,14 +1738,14 @@ video {
     line-height: 1;
   }
 
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
-  }
-
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 
   .sm\:font-medium {
