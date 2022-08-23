@@ -13,6 +13,10 @@
 .tb_see_more_btn {
   color: rgb(203, 213, 225) !important;
 }
+
+.eapps-link {
+  filter: opacity(0) !important;
+}
   
 
 .tb_sb_post_wrapper {
